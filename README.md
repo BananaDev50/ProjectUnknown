@@ -1,2 +1,2 @@
 # ProjectUnknown
-Still need a name ;)
+This project is completely useless at the moment, so dont clone it yet
