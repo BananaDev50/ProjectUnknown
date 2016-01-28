@@ -1,0 +1,11 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "A torrent stream software like Popcorn Time",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Hobbel <paulhobbel@hotmail.com>",
+  "license": "GPL-3.0"
+}

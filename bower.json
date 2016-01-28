@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "description": "A torrent stream software like Popcorn Time",
+  "main": "Gulpfile.js",
+  "authors": [
+    "Paul Hobbel <paulhobbel@hotmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-route": "~1.4.9",
+    "angular-material": "~1.0.3"
+  }
+}

@@ -1,0 +1,12 @@
+<core-header></core-header>
+
+<core-sidebar class="md-black-primary-default background">
+    <nav>
+    <md-button id="nav-{{ pane.ctrl }}" layout="row" ng-repeat="(name, pane) in ::ctrl.panes" ng-click="ctrl.select(pane)" ng-class="{ selected: pane.selected }">
+        <md-icon style="color: black" class="md-black-primary-default text">{{ :: pane.icon }}</md-icon>
+        <span flex>{{ :: pane.title }}</span>
+    </md-button>
+    </nav>
+</core-sidebar>
+
+<div ng-transclude></div>
